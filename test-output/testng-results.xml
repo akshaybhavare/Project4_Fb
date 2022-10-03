@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-13T09:38:15 IST" name="LogInSuite" finished-at="2022-08-13T09:38:47 IST" duration-ms="32433">
+    <groups>
+    </groups>
+    <test started-at="2022-08-13T09:38:15 IST" name="VerifyLogInTest_Stage" finished-at="2022-08-13T09:38:32 IST" duration-ms="16795">
+      <class name="Com.Test.Verify_LogInTest">
+        <test-method is-config="true" signature="SetUp(java.lang.String)[pri:0, instance:Com.Test.Verify_LogInTest@57a78e3]" started-at="2022-08-13T09:38:15 IST" name="SetUp" finished-at="2022-08-13T09:38:31 IST" duration-ms="16004" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="verify_loginwithValidCredentials()[pri:0, instance:Com.Test.Verify_LogInTest@57a78e3]" started-at="2022-08-13T09:38:31 IST" name="verify_loginwithValidCredentials" finished-at="2022-08-13T09:38:31 IST" duration-ms="424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_loginwithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Com.Test.Verify_LogInTest@57a78e3]" started-at="2022-08-13T09:38:32 IST" name="tearDown" finished-at="2022-08-13T09:38:32 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Com.Test.Verify_LogInTest -->
+    </test> <!-- VerifyLogInTest_Stage -->
+    <test started-at="2022-08-13T09:38:33 IST" name="VerifyLogInTest_Live" finished-at="2022-08-13T09:38:47 IST" duration-ms="14260">
+      <class name="Com.Test.Verify_LogInTest">
+        <test-method is-config="true" signature="BS()[pri:0, instance:Com.Test.Verify_LogInTest@304bb45b]" started-at="2022-08-13T09:38:14 IST" name="BS" finished-at="2022-08-13T09:38:15 IST" duration-ms="1057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BS -->
+        <test-method is-config="true" signature="SetUp(java.lang.String)[pri:0, instance:Com.Test.Verify_LogInTest@304bb45b]" started-at="2022-08-13T09:38:33 IST" name="SetUp" finished-at="2022-08-13T09:38:47 IST" duration-ms="13752" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="verify_loginwithValidCredentials()[pri:0, instance:Com.Test.Verify_LogInTest@304bb45b]" started-at="2022-08-13T09:38:47 IST" name="verify_loginwithValidCredentials" finished-at="2022-08-13T09:38:47 IST" duration-ms="329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_loginwithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Com.Test.Verify_LogInTest@304bb45b]" started-at="2022-08-13T09:38:47 IST" name="tearDown" finished-at="2022-08-13T09:38:47 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Com.Test.Verify_LogInTest -->
+    </test> <!-- VerifyLogInTest_Live -->
+  </suite> <!-- LogInSuite -->
+</testng-results>
